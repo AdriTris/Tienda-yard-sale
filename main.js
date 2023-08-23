@@ -38,6 +38,7 @@ function toggleCarritoAside(){
         mobileMenu.classList.add('inactive');
     }
 
+    //Si el desktopMenu esta abierto, hay que cerrarlo
     if(!isDesktopMenuClosed){
         desktopMenu.classList.add('inactive');
     }
