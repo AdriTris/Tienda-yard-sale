@@ -15,7 +15,6 @@ productDetailCloseIcon.addEventListener('click', closeProductDetailAside);
 
 function toggleDesktopMenu() {
     const isAsideClosed = shoppingCartContainer.classList.contains('inactive');
-    const isProductDetailAsideClosed = productDetailContainer.classList.contains('inactive');
 
     //Si el AsideShoppingCart esta abierto, hay que cerrarlo
     if (!isAsideClosed) {
@@ -45,7 +44,6 @@ function toggleMobileMenu() {
 function toggleCarritoAside() {
     const isMobileMenuClosed = mobileMenu.classList.contains('inacive');
     const isDesktopMenuClosed = desktopMenu.classList.contains('inactive');
-    const isProductDetailAsideClosed = productDetailContainer.classList.contains('inactive');
 
     //Si el mobileMenu esta abierto, hay que cerrarlo
     if (!isMobileMenuClosed) {
@@ -87,7 +85,7 @@ function closeProductDetailAside(){
 const productList = [];
 productList.push({
     name: 'Audifonos',
-    price: 25,
+    price: 35,
     image: 'https://images.pexels.com/photos/4887151/pexels-photo-4887151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 });
 productList.push({
@@ -111,7 +109,7 @@ productList.push({
     image: 'https://images.pexels.com/photos/46178/teddy-bear-bear-children-toys-forest-46178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 });
 productList.push({
-    name: 'Camara de fotos',
+    name: 'Cámara de fotos',
     price: 500,
     image: 'https://images.pexels.com/photos/17894927/pexels-photo-17894927/free-photo-of-camara-colgando-correa-de-cuero-enfoque-selectivo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 });
